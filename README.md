@@ -83,4 +83,4 @@ Contributions are welcome! If you find a bug or have a suggestion for improvemen
 
 ## License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+This project is licensed under the [GPL3 License](https://opensource.org/license/gpl-3-0/).
