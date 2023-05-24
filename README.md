@@ -29,9 +29,7 @@ Dictionary of the project :
 ```tree
 
 ./
-├── bin
 ├── Makefile
-├── obj
 ├── README.md
 └── src
     ├── main.c
