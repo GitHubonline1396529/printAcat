@@ -28,9 +28,11 @@ Dictionary of the project :
 
 ```tree
 
-./
+.
 ├── Makefile
 ├── README.md
+├── bin
+├── obj
 └── src
     ├── main.c
     ├── prinAcat.h
