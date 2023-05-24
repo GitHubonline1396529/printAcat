@@ -24,9 +24,27 @@ Paradise is no longer paradise if there is no cat.
 
 ## Installation
 
+Dictionary of the project :
+
+```tree
+
+./
+├── bin
+├── Makefile
+├── obj
+├── README.md
+└── src
+    ├── main.c
+    ├── prinAcat.h
+    ├── printAcat.c
+    ├── printInfo.c
+    └── printInfo.h
+
+```
+
 To compile the program, run the following command in the terminal:
 
-```shell
+```bash
 
 make
 make clear
@@ -39,7 +57,7 @@ This will generate an executable file named `cat` under dictionary `./bin`.
 
 To run the program and print the ASCII cat, you can add `printAcat` to the envirnment varibles of your operation system and simply execute the following command in the terminal:
 
-```shell
+```bash
 
 printAcat
 
