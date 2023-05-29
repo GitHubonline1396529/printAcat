@@ -41,11 +41,9 @@ clean:
 Use the following command to push the project.
 
 ```shell
-
 git init
 git add *
 git commit -m "version 1.1.0.0200"
 git remote add origin https://github.com/GitHubonline1396529/printAcat
 git push -u origin master
-
 ```
