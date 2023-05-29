@@ -1,8 +1,10 @@
 # printAcat
 
-This program prints an ASCII art of a cat in the terminal using various ASCII characters.
+This program is about a cat in terminal. 
 
-The output is like the following :
+Her name is "printA" .
+
+The output of this program is like the following :
 
 ```
 
@@ -42,16 +44,18 @@ Dictionary of the project :
 
 ```
 
-To compile the program, run the following command in the terminal:
+To compile the program, run `make` in the terminal.
+
+Also, 
 
 ```bash
-
-make
+# to clean the bin and obj files
 make clear
-
+# to make printAcat
+make
 ```
 
-This will generate an executable file named `cat` under dictionary `./bin`.
+This will generate an executable file named `cat` in dictionary `./bin`.
 
 ## Usage
 
@@ -65,16 +69,15 @@ printAcat
 
 The output will be printed to the standard output stream.
 
-Argument usage is like the following :
+Usage is like the following :
 
 ```
-
 Usage: printAcat [options] 
 
 Options:
+    -d, --double     Display two cats.
     -h, --help       Display help information.
     -v, --version    Display the version information.
-
 ```
 
 ## Contributing

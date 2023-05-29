@@ -1,7 +1,7 @@
 /**
  * @file printInfo.c
  * @author Githubonline1396529
- * @version 1.0.0.0200
+ * @version 1.1.0.0200
  * @date 2023-5-23
  * 
  * @brief 
@@ -21,6 +21,7 @@
 void printHelp( void ) {
     printf("Usage: printAcat [options] \n\n");
     printf("Options: \n");
+    printf("    -d, --double     Display two cats.\n");
     printf("    -h, --help       Display help information.\n");
     printf("    -v, --version    Display the version information.\n");
 }
@@ -31,7 +32,7 @@ void printHelp( void ) {
  * This function prints out the version number of the program to the console.
  */
 void printVersion( void ) {
-    printf("printAcat version 1.0.0.0200\n");
+    printf("printAcat version 1.1.0.0200\n");
 }
 
 /**

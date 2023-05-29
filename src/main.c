@@ -1,7 +1,7 @@
 /**
  * @file main.c
  * @author Githubonline1396529
- * @version 1.0.0.0200
+ * @version 1.1.0.0200
  * @date 2023-5-23
  * 
  * @brief 
@@ -37,6 +37,10 @@ int main( int Argc, char *Argv[] ) {
         }
         else if( !strcmp( Argv[i], "-v" ) || !strcmp( Argv[i], "--version" ) ) {
             printVersion();
+        }
+        else if( !strcmp( Argv[i], "-d" ) || !strcmp( Argv[i], "--double" ) ) {
+            print2Cats();
+            printf("Paradise is no longer paradise if there is no cat. \n");
         }
         else {
             printArgError( Argv[i] );
