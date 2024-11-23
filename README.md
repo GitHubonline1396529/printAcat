@@ -1,10 +1,6 @@
 # printAcat
 
-This program is about a cat in terminal. 
-
-Her name is "printA" .
-
-The output of this program is like the following :
+This program is about a cat in terminal. The output of this program is as the following :
 
 ```
 
@@ -26,25 +22,7 @@ Paradise is no longer paradise if there is no cat.
 
 ## Installation
 
-Dictionary of the project :
-
-```tree
-
-.
-├── Makefile
-├── README.md
-├── bin
-├── obj
-└── src
-    ├── main.c
-    ├── prinAcat.h
-    ├── printAcat.c
-    ├── printInfo.c
-    └── printInfo.h
-
-```
-
-To compile the program, run `make` in the terminal.
+To compile the program, run `make` in the terminal and you'll find the release binary file under `./bin`
 
 Also, 
 
@@ -62,14 +40,12 @@ This will generate an executable file named `cat` in dictionary `./bin`.
 To run the program and print the ASCII cat, you can add `printAcat` to the envirnment varibles of your operation system and simply execute the following command in the terminal:
 
 ```bash
-
 printAcat
-
 ```
 
 The output will be printed to the standard output stream.
 
-Usage is like the following :
+Usage is as the following :
 
 ```
 Usage: printAcat [options] 
@@ -82,8 +58,8 @@ Options:
 
 ## Contributing
 
-Contributions are welcome! If you find a bug or have a suggestion for improvement, please open an issue or submit a pull request.
+Contributions are welcomed! If you find a bug or have a suggestion for improvement, please open an issue or submit a pull request.
 
 ## License
 
-This project is licensed under the [GPL3 License](https://opensource.org/license/gpl-3-0/).
+This project is licensed under the [GPL3 License](https://opensource.org/license/gpl-3-0/). see [LICENCE](LICENCE) for more information

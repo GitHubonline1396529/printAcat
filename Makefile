@@ -20,4 +20,4 @@ $(OBJDIR)/%.o: $(SRCDIR)/%.c
 clean:
 	rm -f $(EXECUTABLE) $(OBJECTS)
 
-.PHONY: clean
+.PHONY: clean all
