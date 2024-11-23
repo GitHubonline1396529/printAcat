@@ -1,6 +1,6 @@
 # printAcat
 
-This program is about a cat in terminal. The output of this program is as the following :
+This is my first GitHub repositories program is designed to print a cat in terminal. The output of this program is as the following :
 
 ```
 
@@ -62,4 +62,4 @@ Contributions are welcomed! If you find a bug or have a suggestion for improveme
 
 ## License
 
-This project is licensed under the [GPL3 License](https://opensource.org/license/gpl-3-0/). see [LICENCE](LICENCE) for more information
+This project is licensed under the [GPL3 License](https://opensource.org/license/gpl-3-0/). see [LICENCE](LICENCE) for more information.
